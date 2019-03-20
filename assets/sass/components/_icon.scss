@@ -1,0 +1,17 @@
+///
+/// Ubuntu-fr par Toulibre
+/// html5 | @toulibre
+/// Free for personal and commercial use under the CCA 3.0 license 
+///
+
+/* Icon */
+
+	.icon {
+		@include icon;
+		border-bottom: none;
+		position: relative;
+
+		> .label {
+			display: none;
+		}
+	}
