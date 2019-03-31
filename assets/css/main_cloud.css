@@ -33,7 +33,7 @@ div#slider figure {
 
 div#slider figure img { width: 20%; height: auto; float: left; }
 
-div#slider { width: 80%; max-width: 600px; overflow: hidden }
+div#slider { width: auto; max-width: 600px; overflow: hidden }
 
 @keyframes slidy {
   0% { left: 0%; }
