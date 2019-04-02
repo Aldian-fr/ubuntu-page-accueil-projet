@@ -4,19 +4,22 @@
 	Libre d'utilisation personnelle ou commerciale sous la licence CCA 3.0 (Creative Commons/license)
 */
 
-/* Ubuntu Fonts */
+/* Début Ubuntu Fonts */
+
 
 @font-face {
 	    font-family: 'ubuntu-r-webfont';
-	    src: url('fonts/ubuntu-r-webfont.eot');
-	    src: url('fonts/ubuntu-r-webfont.eot?#iefix') format('embedded-opentype'),
-	         url('fonts/ubuntu-r-webfont.woff') format('woff'),
-	         url('fonts/ubuntu-r-webfont.ttf') format('truetype'),
-	         url('fonts/ubuntu-r-webfont.svg#Ubuntu-r') format('svg');
+	    src: url('assets/fonts/ubuntu-r-webfont.eot');
+	    src: url('assets/fonts/ubuntu-r-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('assets/fonts/ubuntu-r-webfont.woff') format('woff'),
+	         url('assets/fonts/ubuntu-r-webfont.ttf') format('truetype'),
+	         url('assets/fonts/ubuntu-r-webfont.svg#Ubuntu-r') format('svg');           
 	    font-weight: normal;
 	    font-style: normal;
 
 	}
+
+/* Fin Ubuntu Fonts */
 
 /* Début Carrousel */
 
