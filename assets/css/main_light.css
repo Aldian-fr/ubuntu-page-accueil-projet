@@ -3138,7 +3138,7 @@ input, select, textarea {
 		#search form input[type="text"] {
 			padding-right: 1.75em;
 		}
-		search-form select option {
+		#search-form select option {
 			background: inherit;
 			color: inherit;
 	}
