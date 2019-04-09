@@ -50,7 +50,7 @@
 .select-items div,.select-selected {
     color: #ffffff;
     padding: 8px 16px;
-    border: 1px solid #411934;
+    border: 1px solid #F29879;
     cursor: pointer;
 }
 .select-items {
@@ -65,7 +65,7 @@
     display: none;
 }
 .select-items div:hover, .same-as-selected {
-    background-color: #411934;
+    background-color: #F29879;
 }
 
 /*fin couleur menu barre de recherche */
