@@ -89,7 +89,7 @@
 
 /* Début Carrousel */
 
-div#slider { width: 80%; max-width: 600px; margin-bottom: -6em; } 
+div#slider { width: 80%; max-width: 600px; } 
 
 div#slider figure {
   position: relative; 
