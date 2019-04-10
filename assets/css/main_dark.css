@@ -4,71 +4,7 @@
 	Libre d'utilisation personnelle ou commerciale sous la licence CCA 3.0 (Creative Commons/license)
 */
 
-/* début couleur menu barre de recherche */
 
-.tt-select {
-    position: relative;
-    height: auto;
-    padding: 0px;
-    margin-bottom: 10px;
-    text-align: left;
-}
-.tt-select select {
-    display: none;
-}
-.select-selected {
-    background-color: #e95420;
-    color: rgba(255,255,255) !important;
-}
-.select-selected:after {
-    position: absolute;
-    content: "";
-    top: 14px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border: 6px solid transparent;
-}
-.select-selected:before {
-    position: absolute;
-    content: "";
-    top: 18px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border: 6px solid transparent;
-    border-color: transparent transparent #ffffff transparent;
-    transform: rotate(180deg);
-}
-.select-selected.select-arrow-active:before {
-    border: none;
-}
-.select-selected.select-arrow-active:after {
-    border-color: transparent transparent #ffffff transparent;
-    top: 10px;
-}
-.select-items div,.select-selected {
-    color: #ffffff;
-    padding: 8px 16px;
-    border: 1px solid #F29879;
-    cursor: pointer;
-}
-.select-items {
-    position: absolute;
-    background-color:rgba(233,84,32);
-    top: 100%;
-    left: 0;
-    right: 0;
-    z-index: 99;
-}
-.select-hide {
-    display: none;
-}
-.select-items div:hover, .same-as-selected {
-    background-color: #F29879;
-}
-
-/*fin couleur menu barre de recherche */
 
 /* Début Ubuntu Fonts */
 
@@ -1964,7 +1900,7 @@ input, select, textarea {
 		border-radius: 0.375em;
 		border: none;
 		border: solid 1px rgba(233, 84, 32);
-		color: inherit;
+		color: rgb(233, 84, 32);
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -2004,11 +1940,6 @@ input, select, textarea {
 		padding-right: 2.75em;
 		text-overflow: ellipsis;
 	}
-
-		select option {
-			color: #E95420;
-			background: #FFF5EE;
-		}
 
 		select:focus::-ms-value {
 			background-color: transparent;
