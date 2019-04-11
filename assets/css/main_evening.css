@@ -162,6 +162,15 @@ input, select, textarea {
 	body {
 		background: #411934;
 	}
+	
+	#search-form select {
+		background-color: #411934;
+	}
+	
+	
+	#tsearch {
+		background-color: #411934;
+	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
 			-moz-animation: none;
